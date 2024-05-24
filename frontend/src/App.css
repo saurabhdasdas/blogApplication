@@ -1,0 +1,59 @@
+.loginPage{
+  width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 50px;
+
+}
+.loginPage button{
+  width: 150px;
+  padding: 10px;
+  margin: auto;
+}
+.loginPage input{
+  padding: 10px;
+}
+
+
+.formBox form{
+  display:flex;
+  flex-direction: column;
+  gap: 10px;
+  position: fixed;
+  top: 60px;
+  left: 300px;
+  padding: 20px;
+  text-align: left;
+  border-radius: 20px;
+  box-shadow: 2 2 5px black;
+  background-color: rgb(50, 165, 42);
+  align-items: center;
+}
+.formBox form img{
+  width: 150px;
+  height: 150px;
+}
+.btn-close{
+  position: absolute;
+  right: 10px;
+}
+
+.Delete{
+  position: absolute;
+  bottom: 60px;
+  right: 30px;
+  color: red;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+
+.formYourPost {
+  position: fixed;
+  top: 100px;
+  left: 380px;
+  background-color: slategray;
+}
