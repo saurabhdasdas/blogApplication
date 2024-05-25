@@ -8,9 +8,9 @@ const Singlapage = () => {
    
     <div className='bg-warning'>
          <h1 style={{textAlign:'center',color:"purple"}}>Singlapage</h1>
-      <img style={{width:'300px',height:"300px"}} src={location.state.image} alt="" />
-      <h1>{location.state.title}</h1>
-      <p>{location.state.description}</p>
+      <img style={{width:'300px',height:"300px",marginLeft:'500px'}} src={location.state.image} alt="" />
+      <h1 style={{textAlign:'center'}}>{location.state.title}</h1>
+      <p style={{textAlign:'center'}}>{location.state.description}</p>
     </div>
   )
 }

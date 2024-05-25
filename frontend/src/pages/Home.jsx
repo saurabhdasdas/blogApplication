@@ -82,11 +82,11 @@ const Home = () => {
   </div>
    
 
-<div className='col-10 bg-success'>
+<div className='col-10 bg-success mt-2'>
     <div className='row gap-2'>
       {posts.map((ele)=>{
-        return<div className="card" style={{width: '18rem'}}>
-  <img src={ele.image} className="card-img-top" alt="..." />
+        return<div className="card" style={{width: '17rem'}}>
+  <img style={{height:'300px'}} src={ele.image} className="card-img-top" alt="..." />
   <div className="card-body">
     <h5 className="card-title">{ele.title}</h5>
     <h5 className="card-title"> auther:{ele.auther

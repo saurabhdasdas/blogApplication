@@ -79,7 +79,7 @@ const submitEdit=async(e)=>{
     <div className='row row-cols-3 gap-3'>
       {data?.map((ele)=>{
         return<div className="card" style={{width: '18rem'}}>
-        <img src={ele.image} className="card-img-top" alt="..." />
+        <img style={{height:'300px'}} src={ele.image} className="card-img-top" alt="..." />
         <MdDelete  onClick={()=>deletePost(ele)} className='Delete'/>
         <FaEdit  onClick={()=>Editpost(ele)} style={{marginRight:"40px"}} className='Delete' />
         <div className="card-body">
